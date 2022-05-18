@@ -1,0 +1,48 @@
+.containerSearch {
+  margin-top: 10px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: 2px;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  text-align: start;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+  font-size: 1em;
+  font-weight: 400;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 1.5em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search {
+  padding: 7px;
+  width: 50rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.containerLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.logo {
+  width: 10rem;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
