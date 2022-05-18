@@ -1,6 +1,6 @@
 .containerSearch {
-  margin-top: 10px;
-  margin-left: 300px;
+  margin-left: 400px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -11,7 +11,7 @@
 }
 
 .title {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
   color: #fff;
   text-align: start;
@@ -19,12 +19,12 @@
 }
 
 .subtitle {
-  font-size: 1em;
-  font-weight: 400;
-  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(250, 252, 252);
   text-align: start;
   margin-bottom: 1.5em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 4px 4px rgba(15, 15, 15, 0.735);
 }
 
 .search {
@@ -45,4 +45,9 @@
   width: 10rem;
   align-items: flex-end;
   justify-content: flex-end;
+  background-image: radial-gradient(
+    52.27% 52.27% at 50.11% 38.49%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(94, 207, 255, 0) 100%
+  );
 }

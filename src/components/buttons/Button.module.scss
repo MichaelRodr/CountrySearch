@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: -10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.button {
+  height: 40px;
+  min-width: 150px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2c8afc;
+  font-size: large;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(15, 15, 15, 0.735);
+}

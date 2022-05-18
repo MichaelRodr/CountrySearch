@@ -1,6 +1,7 @@
 import React from 'react';
 import Style from './Search.module.scss';
 import flags from '../../assets/images/flags.png';
+import Button from '../buttons/Button';
 
 const Search = () => {
   return (
@@ -20,6 +21,7 @@ const Search = () => {
           placeholder='Venezuela'
         />
       </div>
+      <Button />
     </div>
   );
 };
